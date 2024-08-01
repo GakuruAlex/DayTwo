@@ -1,2 +1,2 @@
-def bmi_calculator(weight: str, height: str) -> float:
+def bmi_calculator(weight: str, height: str) -> int:
     return  int(float(weight) / (float(height) * float(height)))
